@@ -1,0 +1,60 @@
+<script>
+/* #1 */
+
+
+//  var i = 2;
+
+//  while(i <= 100){
+//      var k = 2;
+//      while(k <= i){
+//          if(i % k == 0){
+//              break;
+//          }
+//          k++;
+//     }
+         
+//     if(k == i) {
+//         document.write(i + ', ');
+//     }
+//     i++
+//  }
+
+
+/* № 2, 3 */
+
+// var basket = [
+//     {
+//         title: 'Товар 1',
+//         price: '1000',
+//         quantity: 1,
+//     },
+//     {
+//         title: 'Товар 2',
+//         price: '2000',
+//         quantity: 1,
+//     },
+//     {
+//         title: 'Товар 3',
+//         price: '3000',
+//         quantity: 2,
+//     },
+// ];
+
+// function countBasketPrice(sum){
+//     var totalPrice = 0;
+//     for(var item of sum){
+//         totalPrice += +(item.price * item.quantity);  
+//         }
+//         return totalPrice;
+//     }
+   
+// console.log(countBasketPrice(basket));
+
+
+
+/*4.*Вывести с помощью цикла for числа от 0 до 9, не используя тело цикла.*/
+
+// for(var i = 0; i < 10; console.log(i++)){   
+// }
+
+</script>
