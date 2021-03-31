@@ -1,0 +1,131 @@
+<script>
+
+// var a = 1, b = 1, c, d;
+// c = ++a; alert(c);           // 2 - префисный инкремент сначала добавляет единицу, потом выводится число.
+// d = b++; alert(d);           // 1 - постфиксный инкремент сначала выводит число потом записывает в него +1
+// c = (2+ ++a); alert(c);      // 5 - т.к. после строки №4 а становится = 2. В этой строке еще один преф. инкремент итого: a = 3.  2 + 3 = 5.
+// d = (2+ b++); alert(d);      // 4 - после строки 5 b = 2. В этом примере 2 + 2. И после вывода b увеличивается на единицу. 
+// alert(a);                    // 3 - изначально а = 1 и дважды используется инкремент в строке №4 и в строке № 6 
+// alert(b);                    // 3 - изначально b = 1 и дважды используется инкремент в строке № 5 и в строке № 7.
+
+
+
+// var a = 2;
+// var x = 1 + (a *= 2);
+// alert(x); //5
+
+
+
+// function calc(a, b){
+// if(a > 0 && b > 0){
+//     console.log(a - b);
+// } else if(a < 0 && b < 0){
+//     console.log(a * b);
+// } else if((a => 0 && b <= 0) || (a <= 0 && b >= 0)){
+//     console.log(a + b);
+// }
+// }
+
+// calc(2, -3);
+
+
+
+// let a = +prompt('Введите число');
+
+// switch(a) {
+//     case 0: document.write('0 ');
+
+//     case 1: document.write('1 ');
+       
+//     case 2: document.write('2 ');
+          
+//     case 3: document.write('3 ');
+        
+//     case 4: document.write('4 ');
+        
+//     case 5: document.write('5 ');
+        
+//     case 6: document.write('6 ');
+        
+//     case 7: document.write('7 ');
+        
+//     case 8: document.write('8 ');
+       
+//     case 9: document.write('9 ');
+        
+//     case 10: document.write('10 ');
+        
+//     case 11: document.write('11 ');
+        
+//     case 12: document.write('12 ');
+        
+//     case 13: document.write('13 ');
+        
+//     case 14: document.write('14 ');
+         
+//     case 15: document.write('15 ');             
+// }
+
+
+function addition(a, b){
+    return a + b;
+}
+// console.log(addition(3, 5)); //=> 8
+
+function substraction(a, b){
+    return a - b;
+} 
+
+// console.log(substraction(8, 3)); //=> 5
+
+function multiplication (a, b){
+    return a * b;
+} 
+
+// console.log(multiplication(3, 3)); //=> 9
+
+function division(a, b){
+    return a / b;    
+} 
+
+// console.log(division(12, 3));
+
+
+
+
+
+//  function mathOperation(arg1, arg2, operation){
+//     switch(operation){
+//        case addition : return addition(arg1, arg2);
+//        break;
+//        case substraction : return substraction(arg1, arg2);
+//        break;
+//        case multiplication : return multiplication(arg1, arg2);
+//        break;
+//        case division : return division(arg1, arg2);
+//        break;
+//     }
+//  }
+// console.log(mathOperation(6, 2, division));
+
+
+// if(null == 0){
+//     console.log(true);
+// } else{
+//     console.log(false)
+// }
+
+// if(null < 0){
+//     console.log(true);
+// } else{
+//     console.log(false)
+// }
+
+// if(null > 0){
+//     console.log(true);
+// } else{
+//     console.log(false)
+// }
+
+
+</script>
